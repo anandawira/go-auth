@@ -8,7 +8,7 @@ services:
       MYSQL_ROOT_PASSWORD: example
       MYSQL_DATABASE: go-auth
     volumes:
-      - ./database:/var/lib/mysql
+      - ./mysql:/var/lib/mysql
     ports:
       - 3306:3306
 
